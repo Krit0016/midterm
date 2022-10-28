@@ -1,0 +1,212 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ========= My styles ========== */
+
+
+body {
+    background-color: #aad4cf;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #d4e9e7;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header .container .background{
+	background-image: url("../images/lone-starfish-wide.jpg");
+	width: 1024px; height: 340px;
+}
+
+.site-title {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 65px;
+	position: absolute;
+	top: 200px;
+	left: 530px;
+}
+
+nav li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	color: black;
+	display: inline-block;
+	text-align: center;
+	padding-right: 115px;
+	padding-left: 115px;
+	border-right: 1px solid black;
+}
+
+nav{
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+nav li:last-child {
+	border-right: none;
+}
+
+/* Life of a Starfish */
+main .content{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+h2 {
+	font-size: 35px;
+	left: 10px;
+	padding-bottom: 22px;
+}
+
+#starfish-image {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 25px;
+	
+}
+
+p{
+	font-size: 16px;
+	line-height: 1.4;
+	padding-bottom: 34px;
+}
+
+/* Facts About Starfish */
+h3 {
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+ul {
+	list-style-type: disc;
+	margin-left: 20px;
+	padding-bottom: 30px;
+}
+
+/* Contact to learn more */
+h4 {
+	font-size: 30px;
+	padding-bottom: 18px;
+}
+
+.box {
+	width: 960px;
+  	height: 480px;
+  	border: 1px solid black;
+  	padding: 15px;
+	padding-top: 40px;
+  	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.title {
+	font-size: 18px;
+}
+
+h5 {
+	padding-bottom: 12px;
+}
+
+/* text area size */
+#name {
+	width: 950px;
+	height: 30px;
+}
+
+h6 {
+	padding-bottom: 12px;
+	padding-top: 20px;
+}
+
+/* text area size */
+#email {
+	width: 950px;
+	height: 30px;
+}	
+
+.message {
+	font-size: 18px;
+	padding-bottom: 12px;
+	padding-top: 20px;
+}
+
+/* text area size */
+#message {
+	width: 950px;
+	height: 100px;
+}
+
+.question {
+	font-size: 22px;
+	padding-top: 24px;
+	padding-bottom: 30px;
+}
+
+.radio-box {
+	padding-bottom: 15px;
+}
+
+.send-btn {
+	width: 55px;
+	height: 38px;
+	background-color: transparent;
+	border: 1px solid black;
+}
+
+footer .copyright{
+	text-align: right;
+	padding-top: 36px;
+	padding-bottom: 38px;
+	padding-left: 10px;
+	padding-right: 35px;
+}
+
